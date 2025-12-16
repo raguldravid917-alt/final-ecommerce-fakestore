@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  background: #764ba2;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f8;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #0d6efd;
+  color: white;
+}
+
+button:hover {
+  background: #084298;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

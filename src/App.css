@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #e8f5e9;
+}
+
+nav {
+  background: #2e7d32;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  background: #66bb6a;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
